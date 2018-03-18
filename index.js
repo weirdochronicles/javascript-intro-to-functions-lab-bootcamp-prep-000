@@ -14,6 +14,11 @@ function shout(hello){
 //  })
 //})
 
+function whisper(HELLO){
+  return HELLO.toLowerCase()
+}
+
+
 //describe('logShout(string)', function() {
   //it('calls console.log() its one argument in all //caps', function() {
     //const spy = expect.spyOn(console, 'log'//).andCallThrough()
@@ -50,4 +55,4 @@ function shout(hello){
   //it('returns "I love you, too." if `string` is "I //love you, Grandma."`', function() {
     //expect(sayHiToGrandma("I love you, Grandma."//)).toEqual("I love you, too.")
  // })
-})
+//})
