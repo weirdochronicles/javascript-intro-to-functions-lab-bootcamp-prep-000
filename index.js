@@ -4,6 +4,6 @@
  // })
 //})
 
-function shout(string){
-  return string.toUpperCase()
+function shout(hello){
+  return hello.toUpperCase()
 }
